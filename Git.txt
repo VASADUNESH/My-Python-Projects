@@ -4,6 +4,6 @@ left side bottom "Click on git"  ==> click on Initiakize Git Repository
 
 Click on settings ==>  "Click on Repository on GitHub" 
 
-Confirm for this session
-
 Goto Shell (cmd)==> git push --set-upstream origin main
+
+Confirm for this session
