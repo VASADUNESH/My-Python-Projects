@@ -5,5 +5,11 @@ left side bottom "Click on git"  ==> click on Initiakize Git Repository
 Click on settings ==>  "Click on Repository on GitHub" 
 
 Goto Shell (cmd)==> git push --set-upstream origin main
+==>Confirm for this session
 
-Confirm for this session
+
+if modifications Done
+
+left side bottom "Click on git"  ==> Add modifications ==> Commit msg
+==> Click on Push   ==> Confirm for this session
+
