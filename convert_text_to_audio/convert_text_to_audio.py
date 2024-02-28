@@ -1,0 +1,10 @@
+from gtts import gTTS
+from playsound import playsound
+
+audio="intro.mp3"
+language='en'
+text_="Sure, thank you for the opportunity. I am Vasa Dunesh. I hold a Bachelor's degree in Computer Science and Engineering from Seshadri Rao Gudlavalleru Engineering College, where I've consistently maintained a strong academic record, currently with a CGPA of 8.09. During my academic journey, I've developed a solid foundation in programming languages such as C, Java, and Python, along with proficiency in web development technologies like HTML5, CSS, and Bootstrap. I've also gained hands-on experience with frameworks like Flask and Spring. In terms of practical experience, I've undertaken several projects that have honed my technical skills and problem-solving abilities. For instance, I led a team in developing a Flight Ticket Booking website using Node.js, MongoDB, and Angular CLI, which significantly improved the user experience and streamlined the booking process. Apart from technical skills, I've actively pursued opportunities to enhance my knowledge, including certifications in Data Analytics with Python and Programming Essentials in C and Python. I've also participated in workshops focused on areas like Ethical Hacking and completed internships, including one focused on Amazon Web Services. My strengths lie in my analytical mindset, effective communication, and ability to work collaboratively in team settings. I am passionate about staying updated on emerging technologies and leveraging them to drive innovation in software development. Overall, I am enthusiastic about the opportunity to contribute my skills and experiences to [Company Name] and to continue growing both personally and professionally in a dynamic work environment."
+sp=gTTS(text=text_,lang=language,slow=False)
+sp.save(audio)
+playsound(audio)
+print('Audio is Ready')
